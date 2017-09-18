@@ -18,7 +18,7 @@
       <tr>
         <td><%= section.section_number %></td>
         <td><%= section.room %></td>
-        <td><%= section.professor %></td>
+        <td><%= section.professor.name %></td>
         <td><%= section.course %></td>
         <td><%= link_to 'Show', section %></td>
         <td><%= link_to 'Edit', edit_section_path(section) %></td>
